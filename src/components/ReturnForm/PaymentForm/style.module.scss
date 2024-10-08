@@ -1,0 +1,63 @@
+
+.mainFormContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.inputGroup input {
+    padding: 10px;
+    width: 300px;
+    
+
+    :focus {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 0.3px solid rgb(255, 255, 255);
+    }
+}
+
+
+.payButton {
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    width: 100px;
+
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.19);
+    }
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.3px solid rgb(255, 255, 255);
+    padding-bottom: 8px;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 0.3px solid rgb(255, 255, 255);
+    background-color: transparent !important; 
+}

@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://assets.weforum.org/article/image/hySrQhk9QgN45B-0z8PR0bd8ZRyDZ9LnvzPSGaIb91Q.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.paymentsContainer {
+    width: 80%;
+    height: 20%;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.673);
+    padding: 15px;
+}

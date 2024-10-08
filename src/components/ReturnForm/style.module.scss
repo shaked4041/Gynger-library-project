@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.673);
+    border-radius: 10px;
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.returnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feeContainer {
+    font-size: 25px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.returnButton {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: 0.1px solid white;
+
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.125);
+    }
+
+    &:focus-visible {
+        background-color: rgba(255, 255, 255, 0.305);
+    }
+}
+

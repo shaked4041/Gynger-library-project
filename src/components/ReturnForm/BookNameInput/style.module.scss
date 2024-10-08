@@ -1,0 +1,52 @@
+
+.bookNameContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    position: relative;
+    margin-top: 20px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.closeButton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.searchButton{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown {
+    color: white;
+}
+
+.dropdown li {
+    cursor: pointer;
+    color: white;
+}
